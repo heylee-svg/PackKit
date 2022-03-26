@@ -1,0 +1,30 @@
+<com.dhg.packkit.designview.MeasureLayoutViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff00ff"
+    tools:context=".MainActivity">
+
+    <TextView android:text="第一个VIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#ff0000"/>
+
+    <TextView android:text="第二个VIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="#00ff00"/>
+
+    <TextView android:text="第三个VIEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="#0000ff"/>
+
+</com.dhg.packkit.designview.MeasureLayoutViewGroup>
